@@ -1,3 +1,23 @@
 body {
+  background-color: #e0e8ff;
+  background-color: hsl(225, 100%, 94%);
+  background-image: url(images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: 1440px;
   font-family: 'Red Hat Display', sans-serif;
+}
+
+.main {
+  background-color: #f5f7ff;
+  background-color: hsl(225, 100%, 98%);
+}
+
+.plan {
+  background-color: #e0e8ff;
+  background-color: hsl(225, 100%, 94%);
+}
+
+.payment {
+  background-color: #3829e0;
+  background-color: hsl(245, 75%, 52%);
 }
