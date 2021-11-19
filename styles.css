@@ -5,19 +5,77 @@ body {
   background-repeat: no-repeat;
   background-size: 1440px;
   font-family: 'Red Hat Display', sans-serif;
+  color: #7280a7;
+  color: hsl(224, 23%, 55%);
+  text-align: center;
+}
+
+h1 {
+  color: #1f2f56;
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+}
+
+h3 {
+  color: #1f2f56;
+  color: hsl(223, 47%, 23%);
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+h4 {
+  color: #1f2f56;
+  color: hsl(223, 47%, 23%);
+  font-weight: 700;
 }
 
 .main {
   background-color: #f5f7ff;
   background-color: hsl(225, 100%, 98%);
+  border-radius: 15px;
+  width: 35%;
+  margin: 100px auto 100px auto;
+}
+
+.header-img {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 100%;
 }
 
 .plan {
   background-color: #e0e8ff;
   background-color: hsl(225, 100%, 94%);
+  border-radius: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 80%;
+  margin: auto;
+}
+
+.music-icon {
+  margin: auto;
+}
+
+.plan-type {
+  text-align: left;
+}
+
+.price {
+  margin-top: 0;
+}
+
+.change {
+  margin: auto;
 }
 
 .payment {
   background-color: #3829e0;
   background-color: hsl(245, 75%, 52%);
+  border-radius: 15px;
+}
+
+.proceed {
+  color: #f5f7ff;
+  color: hsl(225, 100%, 98%);
 }
