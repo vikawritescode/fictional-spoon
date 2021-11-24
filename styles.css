@@ -83,6 +83,12 @@ h4 {
   font-weight: 700;
 }
 
+.change:hover {
+  color: #7280a7;
+  color: hsl(224, 23%, 55%);
+  text-decoration: none;
+}
+
 .payment {
   background-color: #3829e0;
   background-color: hsl(245, 75%, 52%);
@@ -94,9 +100,54 @@ h4 {
   box-shadow: 0 10px 10px -4px #7280a7;
 }
 
+.payment:hover {
+  background-color: #7280a7;
+  background-color: hsl(224, 23%, 55%);
+}
+
 .proceed {
   color: #f5f7ff;
   color: hsl(225, 100%, 98%);
   margin: auto;
   line-height: 50px;
+}
+
+.cancel {
+ color: #7280a7;
+ color: hsl(224, 23%, 55%);
+}
+
+.cancel:hover {
+  color: #1f2f56;
+  color: hsl(223, 27%, 23%);
+
+}
+
+@media (max-width: 375px) {
+  body {
+    background-image: url(images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: 375px;
+    font-size: 14px;
+  }
+
+  h3 {
+    font-size: 16px;  
+  }
+
+  .main {
+    width: 300px;
+  }
+
+  .summary {
+    width: 250px;
+  }
+
+  .plan {
+    width: 250px;
+  }
+
+  .payment {
+    width: 250px;
+  }
 }
